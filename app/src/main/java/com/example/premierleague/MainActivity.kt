@@ -30,11 +30,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
+fun TeamIcon() {
+}
+
+@Composable
+fun TeamInformation(){
 }
 
 @Preview(showBackground = true)
