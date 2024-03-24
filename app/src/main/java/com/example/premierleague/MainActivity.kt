@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+
                 }
             }
         }
@@ -41,6 +41,6 @@ fun TeamInformation(){
 @Composable
 fun GreetingPreview() {
     PremierLeagueTheme {
-        Greeting("Android")
+
     }
 }
