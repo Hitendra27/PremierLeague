@@ -127,9 +127,17 @@ fun TeamInformation(
 }
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun PremierLeagueThemePreview() {
     PremierLeagueTheme() {
         PremierLeageApp()
 
+    }
+}
+
+@Preview
+@Composable
+fun PremierLeagueDarkThemePreview() {
+    PremierLeagueTheme(useDarkTheme = true) {
+        PremierLeageApp()
     }
 }

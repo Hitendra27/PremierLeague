@@ -75,6 +75,7 @@ private val DarkColors = darkColorScheme(
 @Composable
 fun PremierLeagueTheme(
     useDarkTheme: Boolean = isSystemInDarkTheme(),
+    dynamicColor: Boolean = false,
     content: @Composable() () -> Unit
 ) {
     val colors = if (!useDarkTheme) {
