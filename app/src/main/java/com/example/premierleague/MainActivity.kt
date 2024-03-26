@@ -15,6 +15,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
+import androidx.compose.material3.CenterAlignedTopAppBar
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -51,7 +53,11 @@ class MainActivity : ComponentActivity() {
  */
 @Composable
 fun PremierLeageApp() {
-    Scaffold { it ->
+    Scaffold(
+        topBar = {
+            PremierLeagueTopAppBar()
+        }
+    ) { it ->
         LazyColumn(contentPadding = it) {
             items(teams) {
                 TeamItem(
@@ -60,6 +66,27 @@ fun PremierLeageApp() {
             }
         }
     }
+}
+
+/**
+ * Top App Bar
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun PremierLeagueTopAppBar(modifier: Modifier = Modifier) {
+    CenterAlignedTopAppBar(
+        title = {
+                Image(
+                    modifier = Modifier
+                        .size(dimensionResource(id = R.dimen.logo_image_size))
+                        .padding(dimensionResource(id = R.dimen.logo_image_paddding)),
+                    painter = painterResource(R.drawable.premier_league_logo_svg),
+                    contentDescription = null)
+        },
+        modifier = modifier
+    )
+
+
 }
 
 /**
@@ -120,9 +147,13 @@ fun TeamInformation(
     Column(modifier = modifier) {
         Text(
             text = stringResource(teamName),
+            style = MaterialTheme.typography.displayMedium,
             modifier = Modifier.padding(top = dimensionResource(R.dimen.padding_small))
         )
-        Text(text = stringResource(teamGround))
+        Text(
+            text = stringResource(teamGround),
+            style = MaterialTheme.typography.bodyLarge
+        )
     }
 }
 @Preview(showBackground = true)
