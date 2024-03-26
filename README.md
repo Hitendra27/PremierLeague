@@ -14,9 +14,9 @@ Team Images: See images of all Premier League teams along with their names, stad
 
 
 ## Technologies Used
-Jetpack Compose: Modern UI toolkit for building native Android apps.
-Material Theme Builder: Simplifies the process of customizing and theming Material Design components.
-Android Architecture Components: Utilized for data management and architecture patterns.
+- Jetpack Compose: Modern UI toolkit for building native Android apps.
+- Material Theme Builder: Simplifies the process of customizing and theming Material Design components.
+- Android Architecture Components: Utilized for data management and architecture patterns.
 
 # How to Build and Run
 Clone the repository:
