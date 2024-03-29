@@ -1,6 +1,6 @@
 
 # Premier League Android App
-This Premier League Android app is built using Jetpack Compose and Material Theme Builder, providing users with a sleek and intuitive interface to explore Premier League fixtures, results, standings, and more.
+This Premier League Android app is built using Jetpack Compose and Material Theme Builder, providing users with a sleek and intuitive interface to explore all the Premier League teams, thier Stadium, thier Nick-Name, since the year they first played and more.
 
 ## Features
 Team Details: Get detailed information about each Premier League team.
