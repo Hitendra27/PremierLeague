@@ -12,8 +12,8 @@ val AbrilFatface = FontFamily(
     Font(R.font.abrilfatface_regular)
 )
 
-val Montserrat = FontFamily(
-    Font(R.font.josefinsans_lightitalic),
+val Josefinsans = FontFamily(
+    Font(R.font.josefinsans_regular),
     Font(R.font.josefinsans_bold, FontWeight.Bold)
 )
 
@@ -24,17 +24,17 @@ val Typography = Typography(
         fontSize = 36.sp
     ),
     displayMedium = TextStyle(
-        fontFamily = Montserrat,
+        fontFamily = Josefinsans,
         fontWeight = FontWeight.Bold,
         fontSize = 20.sp
     ),
     labelSmall = TextStyle(
-        fontFamily = Montserrat,
+        fontFamily = Josefinsans,
         fontWeight = FontWeight.Bold,
         fontSize = 14.sp
     ),
     bodyLarge = TextStyle(
-        fontFamily = Montserrat,
+        fontFamily = Josefinsans,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp
     )
