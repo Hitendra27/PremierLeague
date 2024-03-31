@@ -7,9 +7,9 @@ Team Details: Get detailed information about each Premier League team.
 Team Images: See images of all Premier League teams along with their names, stadiums, and founding years.
 
 ## Screenshots
+<img width="373" alt="Screenshot 2024-04-01 at 00 11 10" src="https://github.com/Hitendra27/PremierLeague/assets/73651340/944c9d99-19ad-4d9f-b545-373474085841">
+<img width="365" alt="Screenshot 2024-04-01 at 00 11 55" src="https://github.com/Hitendra27/PremierLeague/assets/73651340/d5d51bde-96c7-4683-ae04-22320d802946">
 
-<img width="394" alt="Screenshot 2024-03-26 at 09 41 02" src="https://github.com/Hitendra27/PremierLeague/assets/73651340/e24b2a8e-887a-482e-b240-3b276b6f74ac">
-<img width="409" alt="Screenshot 2024-03-26 at 09 41 59" src="https://github.com/Hitendra27/PremierLeague/assets/73651340/636b849c-e873-41e0-83db-0021e592c1ca">
 
 
 
